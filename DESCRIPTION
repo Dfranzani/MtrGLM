@@ -1,0 +1,27 @@
+Package: MtrGLM
+Type: Package
+Title: Generalized linear model metrics
+Version: 0.1
+Language: english
+Date: 2024-01-30
+Authors@R: 
+    person("Daniel", "Franzani", email = "dfranzani@gmail.com", role = c("aut", "cre"), comment =  c(ORCID = "0009-0006-7384-1195"))
+Description: Package for graphs and performance metrics of a generalized linear model.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+LazyData: true
+URL: https://github.com/Dfranzani/MtrGLM
+BugReports: https://github.com/Dfranzani/MtrGLM/issues
+Depends: 
+    R (>= 2.10)
+Imports: 
+    graphics,
+    stats
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
